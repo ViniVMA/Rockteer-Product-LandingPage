@@ -7,19 +7,25 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         }
+
         html {
-            overflow-x: hidden;
             font-size: 62.5%;
-            max-height: 100vh;
+            min-height:100%;
         }
-        html, body, #__next {
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden; 
         }
+        
         body {
-            font-family: Rajdhani, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: 16px;
-            display: grid;
-            
-           
+            color: #fff;
         }
       
+        
   `
