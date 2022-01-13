@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { AboutSection } from "./pages/About"
 import { FirstCTASection } from "./pages/FirstCTASection"
@@ -18,6 +19,7 @@ function App() {
        <SecondCTASection />
        <PricesSection />
       </GridCenter>
+      <Footer />
     </Wrapper>
     
   )
@@ -33,7 +35,7 @@ const Wrapper = styled.div`
     background: linear-gradient(271deg, #2d0014, #560127);
     background-size: 400% 400%;  
     align-items: center; 
-    background: linear-gradient(300deg,#590209,#000000,#000000,#5a0007);
+    background: linear-gradient(300deg,#590209, #590209,#000000,#000000,#5a0007, #5a0007);
     background-size: 340% 340%;
     animation: gradient-animation 8s ease infinite;
 
