@@ -3,6 +3,7 @@ import { Header } from "./components/Header"
 import { AboutSection } from "./pages/About"
 import { FirstCTASection } from "./pages/FirstCTASection"
 import { HeroSection } from "./pages/HeroSection"
+import { PricesSection } from "./pages/PricesSection"
 import { SecondCTASection } from "./pages/SecondCTAsection"
 
 
@@ -15,6 +16,7 @@ function App() {
        <AboutSection />
        <FirstCTASection />
        <SecondCTASection />
+       <PricesSection />
       </GridCenter>
     </Wrapper>
     
