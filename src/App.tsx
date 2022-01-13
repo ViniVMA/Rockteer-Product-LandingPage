@@ -1,7 +1,9 @@
 import styled from "styled-components"
 import { Header } from "./components/Header"
 import { AboutSection } from "./pages/About"
+import { FirstCTASection } from "./pages/FirstCTASection"
 import { HeroSection } from "./pages/HeroSection"
+import { SecondCTASection } from "./pages/SecondCTAsection"
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <HeroSection />
       <GridCenter >
        <AboutSection />
+       <FirstCTASection />
+       <SecondCTASection />
       </GridCenter>
     </Wrapper>
     
@@ -27,11 +31,9 @@ const Wrapper = styled.div`
     background: linear-gradient(271deg, #2d0014, #560127);
     background-size: 400% 400%;  
     align-items: center; 
-    
-
     background: linear-gradient(300deg,#590209,#000000,#000000,#5a0007);
-    background-size: 240% 240%;
-    animation: gradient-animation 12s ease infinite;
+    background-size: 340% 340%;
+    animation: gradient-animation 8s ease infinite;
 
 
       @keyframes gradient-animation {
