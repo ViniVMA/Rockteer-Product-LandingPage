@@ -8,42 +8,25 @@ export const Section = styled.section`
     grid-template-columns: 1.5fr 1fr; 
     grid-template-rows: 1fr; 
     gap: 0px 0px;
-    
-
-    
-        
 
     img {
         
     }
 
     @media screen and (max-width: 960px) {
-
-      height: 100vh;
       img {
         display:none;
       }
-      
-      @media screen and (max-width: 847px) {
-        height: 100%;
-        }
 
-        @media screen and (max-width: 600px) {
-        height: 100vh;
-        }
-
-        @media screen and (max-width: 500px) {
-        height: 100%;
-        }
-        
 }
 
 `
 
 export const HeroText = styled.div`
-      margin-top: 9.0rem;
+      margin-top: 15.0rem;
       max-width: 60%;
       margin-left: 10.0rem;
+      
       
       
 
@@ -79,6 +62,9 @@ export const HeroText = styled.div`
       width: 31.9rem;
       background-color: #590209;
       margin: 2.4rem 5.0rem 2.4rem 0;
+      padding-left: 2.0rem;
+      font-style: normal;
+      font-weight: 300;
     }
 
     @media screen and (max-width: 960px) {

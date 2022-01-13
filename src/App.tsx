@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { Header } from "./components/Header"
+import { AboutSection } from "./pages/About"
 import { HeroSection } from "./pages/HeroSection"
 
 
@@ -9,12 +10,7 @@ function App() {
       <Header />
       <HeroSection />
       <GridCenter >
-        <h1>Hello world</h1>
-        <h1>Hello world</h1>
-        <h1>Hello world</h1>
-        <h1>Hello world</h1>
-        <h1>Hello world</h1>
-        <h1>Hello world</h1>
+       <AboutSection />
       </GridCenter>
     </Wrapper>
     
@@ -29,9 +25,9 @@ const Wrapper = styled.div`
     grid-template-rows: 1fr; 
     gap: 0px 0px; 
     background: linear-gradient(271deg, #2d0014, #560127);
-    background-size: 400% 400%;
+    background-size: 400% 400%;  
+    align-items: center; 
     
-    padding-top: 64px;
 
     background: linear-gradient(300deg,#590209,#000000,#000000,#5a0007);
     background-size: 240% 240%;
@@ -52,8 +48,9 @@ const Wrapper = styled.div`
       
 `
 export const GridCenter = styled.div`
-grid-column: 2;
-margin-top: 4.0rem;
+
+    grid-column: 2;
+    
 `
 
 

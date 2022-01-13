@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <h2>Rocketeer helmets is a visionary enterprise that is trying to improve your health by building modern and comfortable helmets for you. </h2>
         <form>
           <label>Enter your email to get the latest news</label>
-          <input type="email" />
+          <input type="email" placeholder="Enter your email here"/>
           <Button title='Submit'/>
         </form>
       </S.HeroText>   

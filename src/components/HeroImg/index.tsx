@@ -1,4 +1,4 @@
-import heroimg from '../../../public/img/heroimg.png'
+import heroimg from '/img/heroimg.png'
 
 export const HeroImg = () => {
   return(

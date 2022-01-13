@@ -25,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
             font-family: Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: 16px;
             color: #fff;
+            
         }
       
         
