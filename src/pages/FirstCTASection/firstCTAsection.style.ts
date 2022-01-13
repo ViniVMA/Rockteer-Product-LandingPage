@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
     align-items: center;
 
     @media screen and (max-width: 640px) {
+            height: 50vh;
             margin-top: 1.0rem;
         }
 `
@@ -15,7 +16,7 @@ export const Wrapper = styled.div`
 
 
 export const TextWrapper = styled.div`
-    margin-left: 30.0rem;
+    margin: 2.0rem 0 0 40.0rem;    
 
     @media screen and (max-width: 820px) {
         margin-left: 1.0rem;
