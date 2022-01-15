@@ -15,7 +15,7 @@ function App() {
       <Header />
       <HeroSection />
       <GridCenter >
-        <Fade left>
+        <Fade left >
         <AboutSection />
         </Fade>
         <Fade right>

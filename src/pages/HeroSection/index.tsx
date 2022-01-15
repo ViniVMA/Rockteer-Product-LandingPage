@@ -4,7 +4,7 @@ import * as S from './heroSection.style'
 
 export const HeroSection = () => {
   return(
-    <S.Section>
+    <S.Section id="home">
       <S.HeroText>
         <h1>The Future is now</h1>
         <h2>Rocketeer helmets is a visionary enterprise that is trying to improve your health by building modern and comfortable helmets for you. </h2>

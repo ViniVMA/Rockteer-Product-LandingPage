@@ -4,7 +4,7 @@ import * as S from './header.style'
 export const Header = () => {
   return(
   <>
-    <S.Header id="home">
+    <S.Header>
       <span className="logo">Rockteer</span>
       <S.Menu>
           <li><a href="#home">Home</a></li>
