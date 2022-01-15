@@ -5,11 +5,11 @@ import img from '../../../public/img/aboutimage.png'
 
 
 export const Section = styled.section`
-  margin-top: 10.0rem;
   display: flex;
   align-items: center;
   justify-content: center;
   justify-self: center;
+  height: 100vh;
  
   
   
