@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { HelmetImageOne } from '../../components/HelmetImages'
 
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
     height: 100vh;
     display: flex;
     align-items: center;

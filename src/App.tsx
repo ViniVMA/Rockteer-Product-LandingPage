@@ -6,6 +6,7 @@ import { FirstCTASection } from "./pages/FirstCTASection"
 import { HeroSection } from "./pages/HeroSection"
 import { PricesSection } from "./pages/PricesSection"
 import { SecondCTASection } from "./pages/SecondCTAsection"
+import Fade from 'react-reveal/Fade';
 
 
 function App() {
@@ -14,10 +15,19 @@ function App() {
       <Header />
       <HeroSection />
       <GridCenter >
-       <AboutSection />
-       <FirstCTASection />
-       <SecondCTASection />
-       <PricesSection />
+        <Fade left>
+        <AboutSection />
+        </Fade>
+        <Fade right>
+        <FirstCTASection />
+        </Fade>
+        <Fade left>
+        <SecondCTASection />
+        </Fade>
+        <Fade right>
+        <PricesSection />
+        </Fade>
+       
       </GridCenter>
       <Footer />
     </Wrapper>

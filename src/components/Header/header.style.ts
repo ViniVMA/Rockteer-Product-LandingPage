@@ -16,6 +16,7 @@ export const Header = styled.nav`
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  z-index: 1;
 
 
    @media screen and (max-width: 500px) {
@@ -47,11 +48,23 @@ export const Menu = styled.ul`
   li {
     list-style-type: none;
     margin: 0;
-    padding-right: 5.0rem;
-
+    
+    :hover {
+    }
+    
+    
     a {
       color: #fff;
       text-decoration: none;
+      padding: 1.0rem 2.0rem;
+      transition: ease-in-out 0.5s;
+      position: relative;
+      
+      :hover{
+        background-color: #59020990;
+        
+      }
+      
     }
   }  
 

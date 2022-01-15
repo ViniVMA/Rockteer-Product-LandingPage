@@ -13,4 +13,8 @@ export const Button = styled.button`
   /* width: 24.0rem; */
   padding: 0 6.0rem;
   height: 4.6rem;
+
+  :hover {
+    background-color: #03667c;
+  }
 `

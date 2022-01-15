@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 
-export const PricesSection = styled.div`
+export const PricesSection = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

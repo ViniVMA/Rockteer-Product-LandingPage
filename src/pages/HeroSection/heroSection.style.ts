@@ -65,6 +65,7 @@ export const HeroText = styled.div`
       padding-left: 2.0rem;
       font-style: normal;
       font-weight: 300;
+      color: #fff;
     }
 
     @media screen and (max-width: 960px) {

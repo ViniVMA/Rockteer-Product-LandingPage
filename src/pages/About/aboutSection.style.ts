@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import img from '../../../public/img/aboutimage.png'
 
 
+
+
 export const Section = styled.section`
   margin-top: 10.0rem;
   display: flex;

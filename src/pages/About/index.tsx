@@ -1,9 +1,10 @@
 import { AboutImage } from '../../components/AboutImage'
 import { Section } from './aboutSection.style'
 
+
 export const AboutSection = () => {
   return(
-    <Section>         
+    <Section id="about">         
            <div className="aboutText">
                 <h2>About Us</h2>
                 <h3>Our mission is change the way you explore the space</h3>
