@@ -10,6 +10,7 @@ export const Section = styled.section`
   justify-content: center;
   justify-self: center;
   height: 100vh;
+  margin: 100px 0;
  
   
   
