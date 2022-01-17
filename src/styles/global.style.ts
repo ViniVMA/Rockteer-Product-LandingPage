@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
         html {
             font-size: 62.5%;
             min-height:100%;
-            scroll-behavior: smooth;
+            
         }
 
         html, body {
@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
             margin: 0px;
             padding: 0px;
             overflow-x: hidden; 
+            scroll-behavior: smooth;
         }
         
         body {
